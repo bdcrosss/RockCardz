@@ -1,0 +1,197 @@
+.header {
+    background-color: #000000;
+    color: #345;
+    width: fit-content;
+    height: 50px;
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+.heading {
+    height: 150px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 800;
+  }
+
+  .masthead {
+    background: rgb(230, 221, 221);;
+    height: 5em;
+    width: 102vw;
+    z-index: 99;
+    line-height: 70px;
+  }
+  
+  .centeredText {
+    text-align: center;
+  }
+  
+  .site-title {
+    color: white;
+    font-family: RockFont;
+    font-size: 80px;
+    z-index: 99;
+    font-weight: bolder;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 10px;
+  }
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+      
+.article {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 400px;
+    height: 500px;
+    background-color: transparent;
+    border-radius: 30px;
+  }
+
+.gerry {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(gerryg.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.tina {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(tinat.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.frank {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(frankz.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.dolores {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(doloreso.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.gwen {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(gwens.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.elvis {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    background-image: url(elvis.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+  .cardone {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+  }
+
+  .cardtwo {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    
+    background-size: cover;
+    position: absolute;
+    left: 250px;
+  }
+.cardthree {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-size: cover;
+    position: absolute;
+    left: 490px;
+}
+
+.cardfour {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-size: cover;
+    position: absolute;
+    left: 730px;
+}
+.cardfive {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-size: cover;
+    position: absolute;
+    left: 970px;
+}
+.cardsix {
+    width: 230px;
+    height: 90vh;
+    border-radius: 15px;
+    border: 3px solid black;
+    background-size: cover;
+    position: absolute;
+    left: 1210px;
+}
+
+@font-face {
+    font-family: RockFont;
+    src: url("Funkrocker.otf");
+
+  }
+  
